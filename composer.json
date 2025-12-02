@@ -1,0 +1,44 @@
+{
+    "name": "alkhachatryan/laravel-enhanced-filters",
+    "description": "Extensible Laravel filtering engine with Amazon-style faceted search. Supports field types (string, numeric, boolean, date), operator-level validation, clean structured errors, and automatic query builder mapping. Perfect for APIs, dashboards, and complex multi-field filters. ",
+    "type": "library",
+    "keywords": ["laravel", "enhanced", "filters", "query"],
+    "authors": [
+        {
+            "name": "Alexei Khachatrian",
+            "email": "alexey.khachatryan@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^12"
+    },
+    "require-dev": {},
+    "autoload": {
+        "files": [
+            "src/Support/helpers.php"
+        ],
+        "psr-4": {
+            "Alkhachatryan\\LaravelEnhancedFilters\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alkhachatryan\\LaravelEnhancedFilters\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+    },
+    "extra": {
+        "laravel": {
+                "providers": [
+                    "Alkhachatryan\\LaravelEnhancedFilters\\LaravelEnhancedFiltersServiceProvider"
+                ]
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {}
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
