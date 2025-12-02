@@ -153,3 +153,5 @@ Each of them have their own specific filtering operators, but also have the comm
 - lengthLessThan - integer value
 
 
+## Versioning
+The package has a semantic versioning X.Y.Z where X - a version of supported Laravel, Y a number of feature commits and a Z a number of bugfixes
