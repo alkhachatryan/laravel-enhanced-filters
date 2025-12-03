@@ -1,4 +1,7 @@
 # Laravel Enhanced Filters 🛠️
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Total Downloads][ico-downloads]][link-downloads]
+![](https://komarev.com/ghpvc/?username=alkhachatryan-laravel-enhanced-filters&label=Repo+views&color=brightgreen&style=flat-square)
 <div align="center">
 <img width="492" height="267" alt="image" src="https://github.com/user-attachments/assets/ad67ac96-6916-4043-ac2f-b497f94068a6" />
 
@@ -155,3 +158,11 @@ Each of them have their own specific filtering operators, but also have the comm
 
 ## Versioning
 The package has a semantic versioning X.Y.Z where X - a version of supported Laravel, Y a number of feature commits and a Z a number of bugfixes
+
+[ico-version]: https://img.shields.io/packagist/v/alkhachatryan/laravel-enhanced-filters.svg?style=flat-square
+
+[link-packagist]: https://packagist.org/packages/alkhachatryan/laravel-enhanced-filters
+[link-author]: https://github.com/alkhachatryan
+[link-contributors]: ../../contributors]
+[ico-downloads]: https://img.shields.io/packagist/dt/alkhachatryan/laravel-enhanced-filters.svg?style=flat-square
+[link-downloads]: https://packagist.org/packages/alkhachatryan/laravel-enhanced-filters
